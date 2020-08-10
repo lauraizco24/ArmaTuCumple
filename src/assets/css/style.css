@@ -1,0 +1,266 @@
+
+  @media (prefers-reduced-motion: no-preference) {
+    .logoATC {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  .header{
+    background-color: none;
+  }
+  body{
+    background-image: url(../img/birthdaycake.jpg);
+    background-size: cover;
+    min-height: 50vh;
+    position: relative;
+    width: 100vw;
+  }
+  
+  section.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+  }
+  nav li a{
+    color: rgb(0,0,52);
+    font-weight: bolder;
+  }
+  a.nav-link{
+    font-size: 1.5vw;
+  }
+  
+  div.seccionPrincipal{
+    display: flex;
+    justify-content: center;
+    margin-top: 25vh;
+    height: 80vh;
+  }
+  h1 b.tituloPrincipal{
+    color: rgb(0,0,52);
+    text-shadow: 0.5px 0.5px 1px black, 0 0 0.5em yellow, 0 0 0.2em yellow;
+    font-size: 5vw;
+    z-index: 10;
+   
+    padding-top: 35vh;
+  
+  }
+  
+  
+  h2.slogan{
+    font-size: 3vw;
+    color: rgb(0,0,52);
+    z-index: 8;
+    
+  }
+  button.btn.btn-primary.btn-lg.btn.btn-primary{
+  
+    font-size: 2vw;
+    border-radius: 40vw;
+    background-color: orangered;
+    border-color: orangered;
+    box-shadow:0.5px 0.5px 1px black , 0 0 0.5em black, 0 0 0.2em black;
+  }
+  
+  div.serviciosIndex{
+    background-color: white;
+    
+  }
+  
+  div.tituloServicios{
+    font-weight: bolder;
+    color: rgb(0,0,52);
+    padding-top: 7vh;
+    padding-bottom: 6vh;
+    display: flex;
+    justify-content: center;
+  }
+  div.tituloServicios h1{
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .card-columns {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  
+  }
+  div.card{
+    display: flex;
+    justify-content: center;
+    border: none;
+  }
+  div.card-body{
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  Img.imagenServicio{
+  
+    width: 20vw;
+    height: 40vh;
+    
+  
+  }
+  img.card-img-top.imagenServicio{
+     margin-left: 5vw;
+  }
+  
+  div.card-title.h5{
+    margin-left: 5vw;
+  }
+  p.texto.card-text{
+    width: 100%;
+    margin-left: 0vw;
+  }
+  
+  div.seccionQS{
+    width: 100vw;
+    height: 40vw;
+    background-color: rgb(255,255,255,0.3);
+  }
+  div.QS{
+   
+    display: flex;
+    justify-content: center;
+   
+  }
+   h1{
+     padding-top: 5vw;
+    color: rgb(0,0,52);
+    font-weight: bold;
+    padding-bottom: 5vh;
+  
+  }
+  p{
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  
+  @media only screen  and (max-width: 480px) {
+    /* For mobile phones: */
+    body{
+      background-image: url(../img/birthdaycake.jpg);
+      background-size: cover;
+      min-height: 100vh;
+      position: relative;
+      width: 100vw;
+    }
+    header nav {
+        margin-left: 10%;
+    }
+  
+    img.logoATC{
+        width: 15vw;
+    }
+     h1 b.tituloPrincipal{
+        font-size: 10vw;
+        
+    }
+    h2.slogan{
+        font-size: 5vw;
+        
+    }
+    button.btn.btn-primary.btn-lg.btn.btn-primary{
+    margin-left: 30vw;
+    font-size: 3vw;
+    }
+    div.tituloServicios h1{
+      font-size: 10vw;
+      font-weight: bold;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    img.card-img-top.imagenServicio{
+      width: 85vw;
+      ;
+   }
+   div.card-title.h5{
+    margin-left: 20vw;
+  }
+  
+  }
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* For mobile phones: */
+   
+    header nav {
+        margin-left: 10%;
+    }
+  
+    img.logoATC{
+        width: 15vw;
+    }
+    h1 b.tituloPrincipal{
+        font-size: 5vw;
+        
+    }
+    h2.slogan{
+        font-size: 3vw;
+    }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  img.card-img-top.imagenServicio{
+    width: 85vw;
+  }
+  div.card-title.h5{
+    margin-left: 4vw;
+  }
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+    img.logoATC{
+      width: 8vw;
+  }
+  header nav {
+      margin-left: 5%;
+  }
+  h1 b.tituloPrincipal{
+      font-size: 5vw;
+     
+  }
+  h2.slogan{
+      font-size: 3vw;
+  }
+
+.App {
+  text-align: center;
+}
+
+    
+  }
+  .Footer-container{
+    width: 100%;
+    background-color: rgba(8, 28, 119, 0.5);
+  }
+  .Footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+  
+  }
+  .first-column ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10vw;
+    padding-top: 4vh;
+   
+  }
+  .second-column ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+  }
+  .third-column ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10vw;
+  }
+.Footer-content a{
+  color: rgb(255, 255, 255);
+}
+
